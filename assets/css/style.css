@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Typewriter";
+    src: url("../fonts/typewriter.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Old English";
+    src: url("../fonts/oldEnglishFive.woff2") format("woff2");
+}
+
+*
+{
+	padding: 0;
+	margin: 2px;
+	box-sizing: border-box;
+}
+
+body
+{
+	background: linear-gradient(to right, #b3e5fc , #ffccbc, #c8e6c9);
+	outline: rgb(108, 171, 186) solid 10px;
+	border: 3px dashed black;
+	color: black;
+	font-family: Typewriter, "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+#svg-background
+{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	background: url(../img/mu-text-watermark.svg);
+}
+
+main
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#din-logo
+{
+	height: 19vh;
+	position: absolute;
+	left: 3%;
+	top: 3%;
+}
+
+
+
+h1
+{
+	font-family: "Old English", "Times New Roman", Times, serif;
+	font-weight: 100;
+	font-size: 25px;
+	padding: 0.5%;
+}
+
+h2
+{
+	font-family: "Times New Roman", Times, serif;
+}
+.mt{
+	font-family: "Old English", "Times New Roman", Times, serif;
+	font-size: 20px;
+	padding-right: 30px;
+}
+h2{
+	color: #0149e6;
+	
+
+}
+
+	
+
+h1{
+	color: #0149e6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.raz-data
+{
+	padding-top: 2%;
+	display: grid;
+	width: 90%;
+	margin:10px;
+	grid-template-columns: max-content 1fr;
+	column-gap: 1.5rem;
+}
+
+label
+{
+	color: #0a0909;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	padding: 0.5% 0;
+}
+
+.raz-data > label
+{
+	position: relative;
+}
+
+.raz-data > label::after
+{
+	content: ":";
+	position: absolute;
+	right: -15px;
+}
+
+.raz-data > div
+{
+	line-height: 1.5em;
+}
+
+section
+{
+	padding-top: 2%;
+}
+
+table
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th
+{
+	font-family: "Times New Roman", Times, serif;
+}
+
+td, th
+{
+	border: solid #090909 2px;
+}
+
+td, th
+{
+	padding: 0.5% 0.5%;
+}
+
+th
+{
+	color: #141212;
+}
+
+.moon{
+	display: flex;
+	justify-content: space-between;
+}
+
+.serif-fonts
+{
+	font-family: "Times New Roman", Times, serif;
+}
+
